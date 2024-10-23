@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+}
+.nav-div nav {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#head {
+  background-image: url(/assets/img/banner-bg.jpg.webp);
+  background-size: cover;
+  height: 89.2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30rem 0 10rem !important;
+}
+#head #head-text h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 3rem 0;
+  font-family: "Poppins", sans-serif;
+}
+#head #head-text p {
+  font-size: 1.4rem;
+  color: #777777;
+  max-width: 435px;
+  margin-bottom: 2rem;
+}
+#head #head-text button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  background-image: linear-gradient(orange, yellow);
+  font-size: large;
+  color: white;
+}
+#head #head-text span {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#fragman {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 3rem;
+  text-align: center;
+}
+#fragman .row div:nth-child(1) {
+  border: none;
+  border-right: 1px solid lightgray;
+}
+#fragman .row div:nth-child(2) {
+  border: none;
+  border-right: 1px solid lightgray;
+}
+#fragman .row div:nth-child(3) {
+  border: none;
+  border-right: 1px solid lightgray;
+}
+#fragman i {
+  font-size: 4rem;
+}/*# sourceMappingURL=style.css.map */

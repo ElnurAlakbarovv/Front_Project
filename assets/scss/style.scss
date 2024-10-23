@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
   border-radius: 100px;
+  nav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 }
 #head {
   background-image: url(/assets/img/banner-bg.jpg.webp);
@@ -11,6 +14,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 30rem 0 10rem !important;
+
   #head-text {
     h1 {
       font-size: 6rem;
@@ -22,7 +26,7 @@
       font-size: 1.4rem;
       color: #777777;
       max-width: 435px;
-    margin-bottom: 2rem;
+      margin-bottom: 2rem;
     }
     button {
       width: 5rem;
@@ -33,14 +37,35 @@
       font-size: large;
       color: white;
     }
-    span{
+    span {
       padding: 1rem;
       font-size: 1.2rem;
-      font-family: "Poppins", sans-serif; 
+      font-family: "Poppins", sans-serif;
     }
   }
 }
 
-section {
-  height: 100rem;
+#fragman {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 3rem;
+  text-align: center;
+  .row {
+    div {
+      &:nth-child(1) {
+      border: none;
+      border-right: 1px solid lightgray;
+      }
+      &:nth-child(2) {
+        border: none;
+        border-right: 1px solid lightgray;
+      }
+      &:nth-child(3) {
+        border: none;
+        border-right: 1px solid lightgray;
+      }
+    }
+  }
+  i {
+    font-size: 4rem;
+  }
 }
