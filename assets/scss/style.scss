@@ -1,0 +1,46 @@
+@import "./reset";
+.nav-div {
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+}
+#head {
+  background-image: url(/assets/img/banner-bg.jpg.webp);
+  background-size: cover;
+  height: 89.2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30rem 0 10rem !important;
+  #head-text {
+    h1 {
+      font-size: 6rem;
+      font-weight: 700;
+      margin: 3rem 0;
+      font-family: "Poppins", sans-serif;
+    }
+    p {
+      font-size: 1.4rem;
+      color: #777777;
+      max-width: 435px;
+    margin-bottom: 2rem;
+    }
+    button {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      border: none;
+      background-image: linear-gradient(orange, yellow);
+      font-size: large;
+      color: white;
+    }
+    span{
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-family: "Poppins", sans-serif; 
+    }
+  }
+}
+
+section {
+  height: 100rem;
+}
