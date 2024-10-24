@@ -21,6 +21,15 @@ body {
 .nav-div nav {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.nav-div ul li {
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  font-family: "Roboto", serif;
+}
+.nav-div ul li a:hover {
+  color: orange;
+  background-color: none;
+}
 
 #head {
   background-image: url(/assets/img/banner-bg.jpg.webp);
@@ -58,6 +67,8 @@ body {
 }
 
 #fragman {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 3rem;
   text-align: center;
@@ -76,4 +87,171 @@ body {
 }
 #fragman i {
   font-size: 4rem;
+}
+
+#black-friday img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#latest-product div h1 {
+  font-size: 3.6rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0 8rem;
+}
+#latest-product p {
+  text-align: center;
+  margin: 1rem auto;
+  width: 49rem;
+  color: #777777;
+  font-family: "Roboto", serif;
+  font-size: 1.4rem;
+}
+#latest-product #products img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+#latest-product #products h5 {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+#latest-product #icons i {
+  margin-right: 0.6rem;
+  background-color: #828bb2;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hot-deals {
+  margin-top: 8rem;
+}
+#hot-deals h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.6rem;
+  max-width: 54.3rem;
+  text-align: center;
+}
+#hot-deals p {
+  margin-bottom: 3rem;
+  font-family: "Roboto", serif;
+}
+
+#hot-deals-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hot-deals-right div img {
+  margin: 0 1rem;
+}
+#hot-deals-right span {
+  margin-top: 2rem;
+  color: #222222;
+  font-size: 1.2rem;
+}
+#hot-deals-right span i {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#hot-deals-left {
+  background-image: url(/assets/img/exclusive.jpg.webp);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  padding: 10rem;
+  height: 89.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+#hot-deals-left div {
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+}
+#hot-deals-left div div {
+  width: 12rem;
+  text-align: center;
+}
+#hot-deals-left div div h1 {
+  font-size: 3.6rem;
+  font-family: "Poppins", sans-serif;
+}
+#hot-deals-left div div p {
+  font-size: 1.4rem;
+  color: #222222;
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+#hot-deals-left button {
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  color: white;
+  background-color: orange;
+}
+
+#brand div {
+  margin: 3rem 0;
+  padding: 0 7rem;
+}
+#brand div .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weekDeal .weekDeal-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 54rem;
+}
+
+footer {
+  margin-top: 10rem;
+  padding: 10rem 0;
+}
+footer h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+footer p {
+  color: #777777;
+  font-family: "Roboto", serif;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  #head {
+    margin: 0 auto;
+  }
+  #head img {
+    display: none;
+  }
+  #black-friday-watch {
+    max-width: 33rem;
+    height: 39rem;
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -19,11 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
     <title>Document</title>
   </head>
 
   <body>
+    <!-- Navbar -->
     <div class="nav-div">
       <nav
         class="navbar container navbar-expand-lg bg-body position-fixed top-0 p-4"
@@ -106,18 +107,19 @@
                 <a class="nav-link" href="#">CONTACT</a>
               </li>
             </ul>
-            <div>
-              <i class="bi bi-bag-plus"></i>
-              <i class="bi bi-search"></i>
+            <div> 
+              <i class="bi bi-bag-plus m-3"></i>
+              <i class="bi bi-search m-3"></i>
             </div>
           </div>
         </div>
       </nav>
     </div>
+    <!-- Navbar end -->
     <header id="head" class="container-lg-fluid">
       <div class="container">
         <div class="row">
-          <div id="head-text" class="col-md-6 col-lg-5">
+          <div id="head-text" class="col-md-12 col-lg-5">
             <h1>Nike New Collection!</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -127,7 +129,7 @@
             <button>+</button> <span>ADD TO BAG</span>
           </div>
           <div class="col-md-6 col-lg-7">
-            <img src="./assets/img/banner-img.png.webp" alt="" />
+            <img src="./assets/img/banner-img.png.webp" alt=""   />
           </div>
         </div>
       </div>
@@ -174,7 +176,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-12 col-xl-4">
+        <div  id="black-friday-watch" class="col-12 col-lg-12 col-xl-4">
           <img src="./assets/img/c5.jpg.webp" alt="" />
         </div>
       </div>
@@ -345,15 +347,138 @@
         <div class="col"><img src="./assets/img/5.png.webp" alt="" /></div>
       </div>
     </section>
+
+    <!-- Deal Weak -->
     <section id="weekDeal" class="container">
-      <div>
+      <div class="weekDeal-text">
         <h1>Deals of the Week</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
+      <div class="row d-flex align-items-center mt-5">
+        <div class="col-xl-9">
+          <div class="row d-flex flex-wrap g-5">
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex">
+              <img src="./assets/img/r1.jpg.webp" alt="" />
+              <div>
+                <h4>Black lace Heels</h4>
+                <p>$189.00 <del>$210.00</del></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <img
+            src="./assets/img/c5.jpg.webp"
+            style="height: 30.2rem; width: 25.5rem"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
+    <footer class="bg-dark mt-5 text-light">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Newsletter</h3>
+            <p>Stay update with our latest</p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Email"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn bg-warning text-light fs-2"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Instagram Feed</h3>
+            <img src="./assets/img/insta.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Follow Us</h3>
+            <p>Let us be social</p>
+            <div> 
+              <i class="bi bi-facebook p-2"></i><i class="bi bi-twitter-x p-2"></i
+              ><i class="bi bi-globe2 p-2"></i><i class="bi bi-whatsapp p-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
