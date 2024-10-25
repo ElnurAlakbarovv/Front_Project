@@ -5,6 +5,7 @@
   border-radius: 100px;
   nav {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 7;
   }
   ul {
     li {
@@ -353,19 +354,124 @@ footer {
     }
   }
 }
-#reviews {   
+#reviews {
   #reviews-comment {
-  text-align: center;
-  padding: 1rem;
+    text-align: center;
+    padding: 1rem;
     button {
       background-color: white;
       height: 4rem;
       padding: 0 3rem;
       border: none;
-      margin: 0 .3rem;
-      &:nth-child(4){background-image: linear-gradient(to right, yellow,orange,rgb(238, 155, 0),red)
+      margin: 0 0.3rem;
+      &:nth-child(4) {
+        background-image: linear-gradient(
+          to right,
+          yellow,
+          orange,
+          rgb(238, 155, 0),
+          red
+        );
       }
-      
+    }
+  }
+}
+#stary-detail {
+  h3 {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+}
+#rating-form {
+  display: flex;
+  flex-direction: column;
+  input,
+  textarea {
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+    margin: 0.3rem 0;
+  }
+}
+
+#cart-btn {
+  min-width: 17.8rem;
+  height: 4rem;
+  border: none;
+  background-color: #e8f0f2;
+}
+
+#login {
+  padding: 0 0 100px;
+  .image {
+    padding: 200px 0;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/assets/img/login.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h4 {
+      font: 500 24px "Poppins";
+      margin: 0 0 15px;
+      color: #ffffff;
+    }
+    p {
+      font: 14px "Roboto";
+      margin: 0 95px 25px;
+      color: #ffffff;
+      line-height: 25px;
+    }
+    button {
+      padding: 0 30px;
+      height: 38px;
+      text-transform: uppercase;
+      color: white;
+      background-color: orange;
+      font: 500 14px "Roboto";
+      border: none;
+    }
+  }
+  .form {
+    padding: 115px 0 0;
+    h3 {
+      font: 18px "Poppins";
+      margin: 0 0 30px;
+    }
+    .text {
+      input {
+        width: 355px;
+        height: 54px;
+        border: none;
+        padding: 6px 12px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.121);
+        margin-bottom: 20px;
+      }
+    }
+    .checkbox {
+      margin: auto;
+      width: 355px;
+      display: flex;
+      gap: 10px;
+      justify-content: start;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 355px;
+      padding: 0 30px;
+      height: 38px;
+      text-transform: uppercase;
+      color: white;
+      background-color: orange;
+      font: 500 14px "Roboto";
+      border: none;
+      margin-bottom: 20px;
+    }
+    .forgot {
+      a {
+        font: 14px "Roboto";
+        color: #777777;
+      }
     }
   }
 }
