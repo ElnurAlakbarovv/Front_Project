@@ -21,6 +21,15 @@ body {
 .nav-div nav {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.nav-div ul li {
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  font-family: "Roboto", serif;
+}
+.nav-div ul li a:hover {
+  color: orange;
+  background-color: none;
+}
 
 #head {
   background-image: url(/assets/img/banner-bg.jpg.webp);
@@ -142,7 +151,7 @@ body {
   flex-direction: column;
 }
 #hot-deals-right div img {
-  margin: 0 3rem;
+  margin: 0 1rem;
 }
 #hot-deals-right span {
   margin-top: 2rem;
@@ -199,7 +208,7 @@ body {
 
 #brand div {
   margin: 3rem 0;
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 #brand div .col {
   display: flex;
@@ -207,14 +216,136 @@ body {
   align-items: center;
 }
 
-#weekDeal .container {
+#weekDeal .weekDeal-text {
   margin: 0 auto;
+  text-align: center;
+  max-width: 54rem;
 }
-#weekDeal .container div {
-  width: 54rem;
+
+footer {
+  margin-top: 10rem;
+  padding: 10rem 0;
 }
-#weekDeal .container div h1 {
-  width: 54rem;
+footer h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+footer p {
+  color: #777777;
+  font-family: "Roboto", serif;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  #head {
+    margin: 0 auto;
+  }
+  #head img {
+    display: none;
+  }
+  #black-friday-watch {
+    max-width: 33rem;
+    height: 39rem;
+    display: flex;
+  }
+}
+#shop-nav-back {
+  background-image: url(/assets/img/banner-bg.jpg.webp);
+  background-size: cover;
+  height: 39.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30rem 0 10rem !important;
+}
+#shop-nav-back .container div {
+  margin: -6rem 10rem;
+  text-align: end;
+  color: white;
+}
+#shop-nav-back .container div h1 {
   font-size: 3.6rem;
   font-family: "Poppins", sans-serif;
+}
+
+#shop-list {
+  margin-top: 8rem;
+}
+#shop-list h2 {
+  background-color: #828bb3;
+  color: white;
+}
+#shop-list ul {
+  list-style: none;
+}
+#shop-list ul li {
+  margin: 1rem;
+  transition: 0.3s;
+}
+#shop-list ul li:hover {
+  color: orange;
+}
+#shop-list ul li span {
+  color: gray;
+}
+#shop-list .dropdown {
+  padding: 0.6rem;
+  height: 5.4rem;
+}
+#shop-list .page_number {
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shop-list .page_number div {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  transition: all 0.5s;
+}
+#shop-list .page_number div:hover {
+  background-image: linear-gradient(0, yellow, rgb(255, 42, 0));
+  color: white;
+}
+#shop-list .page_number div:nth-child(2) {
+  background-image: linear-gradient(0, yellow, rgb(255, 42, 0));
+  color: white;
+}
+
+#login-btn a {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, yellow 0%, goldenrod 55%, orange 90%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: white;
+  border-radius: 1rem;
+  padding: 1.2rem 4.8rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+#login-btn a:hover {
+  background-position: 0 0;
+}
+
+#reviews #reviews-comment {
+  text-align: center;
+  padding: 1rem;
+}
+#reviews #reviews-comment button {
+  background-color: white;
+  height: 4rem;
+  padding: 0 3rem;
+  border: none;
+  margin: 0 0.3rem;
+}
+#reviews #reviews-comment button:nth-child(4) {
+  background-image: linear-gradient(to right, yellow, orange, rgb(238, 155, 0), red);
 }
