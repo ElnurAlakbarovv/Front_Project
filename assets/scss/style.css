@@ -31,6 +31,9 @@ body {
   color: orange;
   background-color: none;
 }
+.nav-div ul li a:hover a:active {
+  color: orange;
+}
 
 #head {
   background-image: url(/assets/img/banner-bg.jpg.webp);
