@@ -518,4 +518,8 @@ footer p {
 }
 #aside-blog #aside-buttons button:hover {
   background-color: gold;
+}
+
+#logos div img {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
