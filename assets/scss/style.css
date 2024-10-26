@@ -446,4 +446,54 @@ footer p {
 #login .form .forgot a {
   font: 14px "Roboto";
   color: #777777;
+}
+
+#blog #blog-head div:nth-child(1) {
+  position: relative;
+}
+#blog #blog-head div:nth-child(2) {
+  order: 1;
+  position: absolute;
+  top: 0;
+  width: 31rem;
+  height: 17.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(22, 22, 22, 0.8);
+  color: white;
+  margin: 2.3rem 2.5rem;
+  transition: 1s;
+}
+#blog #blog-head div:nth-child(2):hover {
+  background-color: rgba(218, 165, 32, 0.8);
+}
+
+#blog-post button {
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  border: 1px solid black;
+}
+
+#aside-blog {
+  text-align: center;
+  padding: 3rem;
+}
+#aside-blog input {
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 3rem;
+  color: white;
+}
+#aside-blog #aside-buttons button {
+  border: 0.2px solid black;
+  padding: 0.5rem 3rem;
+  background-color: white;
+  margin: 0.5rem;
+}
+#aside-blog #aside-buttons button:hover {
+  background-color: gold;
 }/*# sourceMappingURL=style.css.map */

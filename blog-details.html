@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-div">
+      <nav
+        class="navbar container navbar-expand-lg bg-body position-fixed top-0 p-4"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./assets/img/logo.png.webp" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./shop-category.html"
+                      >Shop Category</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./product-details.html"
+                      >Product Details</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./shoping-cart.html"
+                      >Shopping Cart</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./blog.html">BLOG</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">BLOG DETAILS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./login.html">LOGIN</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./register.html">REGISTER</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div>
+              <i class="bi bi-bag-plus m-3"></i>
+              <i class="bi bi-search m-3"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section id="shop-nav-back">
+      <div class="container">
+        <div>
+          <h1>Blog</h1>
+          <p>Home <i class="bi bi-arrow-right"></i>Blog</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5" id="blog-post">
+      <div class="row">
+        <div class="col-xl-8">
+          <div class="row">
+            <div class="col">
+              <img
+                src="./assets/img/feature-img1.jpg.webp"
+                class="w-100 p-5"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 text-end">
+              <p>
+                Food, <span class="text-warning">Technology</span>,<br />
+                Politics, Lifestyle
+              </p>
+              <p class="text-secondary">
+                Mark wiens <i class="bi bi-person fs-2 text-dark"></i>
+              </p>
+              <p class="text-secondary">
+                12 Dec, 2018
+                <i class="bi bi-calendar2-week fs-2 text-dark"></i>
+              </p>
+              <p class="text-secondary">
+                1.2M Views <i class="bi bi-eye fs-2 text-dark"></i>
+              </p>
+              <p class="text-secondary">
+                06 Comments <i class="bi bi-chat fs-2 text-dark"></i>
+              </p>
+              <div>
+                <i class="bi bi-facebook p-2"></i
+                ><i class="bi bi-twitter-x p-2"></i
+                ><i class="bi bi-dribbble p-2"></i
+                ><i class="bi bi-whatsapp p-2"></i>
+              </div>
+            </div>
+            <div class="col-xl-9">
+              <h1>Astronomy Binoculars A Great Alternative</h1>
+              <p class="text-secondary">
+                MCSE boot camps have its supporters and its detractors. Some
+                people do not understand why you should have to spend money on
+                boot camp when you can get the MCSE study materials yourself at
+                a fraction.
+              </p>
+              <p class="text-secondary">
+                Boot camps have its supporters and its detractors. Some people
+                do not understand why you should have to spend money on boot
+                camp when you can get the MCSE study materials yourself at a
+                fraction of the camp price. However, who has the willpower to
+                actually sit through a self-imposed MCSE training. who has the
+                willpower to actually sit through a self-imposed
+              </p>
+              <p class="text-secondary">
+                Boot camps have its supporters and its detractors. Some people
+                do not understand why you should have to spend money on boot
+                camp when you can get the MCSE study materials yourself at a
+                fraction of the camp price. However, who has the willpower to
+                actually sit through a self-imposed MCSE training. who has the
+                willpower to actually sit through a self-imposed
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="text-secondary p-5">
+                <em
+                  >MCSE boot camps have its supporters and its detractors. Some
+                  people do not understand why you should have to spend money on
+                  boot camp when you can get the MCSE study materials yourself
+                  at a fraction of the camp price. However, who has the
+                  willpower to actually sit through a self-imposed MCSE
+                  training.</em
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 p-4">
+              <img src="./assets/img/post-img1.jpg.webp" class="w-100" />
+            </div>
+            <div class="col-xl-6 p-4">
+              <img src="./assets/img/post-img2.jpg.webp" class="w-100" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="text-secondary px-5">
+                MCSE boot camps have its supporters and its detractors. Some
+                people do not understand why you should have to spend money on
+                boot camp when you can get the MCSE study materials yourself at
+                a fraction of the camp price. However, who has the willpower.
+              </p>
+              <p class="text-secondary px-5">
+                MCSE boot camps have its supporters and its detractors. Some
+                people do not understand why you should have to spend money on
+                boot camp when you can get the MCSE study materials yourself at
+                a fraction of the camp price. However, who has the willpower.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        
+
+        <div class="col-xl-4">
+          <div class="col">
+            <div class="row" id="aside-blog">
+              <div class="col">
+                <input
+                  type="text"
+                  class="bg-warning"
+                  placeholder="Search Post"
+                /><br /><br />
+                <hr />
+                <img src="./assets/img/author.png.webp" class="mt-5" />
+                <h1>Charlie Barber</h1>
+                <p>Senior blog writer</p>
+                <div>
+                  <i class="bi bi-facebook p-3"></i
+                  ><i class="bi bi-twitter-x p-3"></i
+                  ><i class="bi bi-dribbble p-3"></i
+                  ><i class="bi bi-whatsapp p-3"></i>
+                </div>
+                <p class="p-4">
+                  Boot camps have its supporters andit sdetractors. Some people
+                  do not understand why you should have to spend money on boot
+                  camp when you can get. Boot camps have itssuppor ters andits
+                  detractors.
+                </p>
+                <hr />
+                <br />
+
+                <h1 class="bg-warning text-light p-3">POPULAR POST</h1>
+                <div class="d-flex mt-4">
+                  <div><img src="./assets/img/post1.jpg.webp" alt="" /></div>
+                  <div class="text-start mt-3 ms-3">
+                    <h3 class="mb-0">Space The Final Frontier</h3>
+                    <p class="m-0">02 Hours ago</p>
+                  </div>
+                </div>
+
+                <div class="d-flex mt-4">
+                  <div><img src="./assets/img/post2.jpg.webp" alt="" /></div>
+                  <div class="text-start mt-3 ms-3">
+                    <h3 class="mb-0">Space The Final Frontier</h3>
+                    <p class="m-0">02 Hours ago</p>
+                  </div>
+                </div>
+                <div class="d-flex mt-4">
+                  <div><img src="./assets/img/post3.jpg.webp" alt="" /></div>
+                  <div class="text-start mt-3 ms-3">
+                    <h3 class="mb-0">Space The Final Frontier</h3>
+                    <p class="m-0">02 Hours ago</p>
+                  </div>
+                </div>
+                <div class="d-flex mt-4">
+                  <div><img src="./assets/img/post4.jpg.webp" alt="" /></div>
+                  <div class="text-start mt-3 ms-3">
+                    <h3 class="mb-0">Space The Final Frontier</h3>
+                    <p class="m-0">02 Hours ago</p>
+                  </div>
+                </div>
+                <br />
+                <hr />
+                <img src="./assets/img/add.jpg.webp" alt="" />
+                <hr />
+                <h1 class="bg-warning text-light p-3 mt-5">POST CATEGORIES</h1>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Technology</p>
+                  <p>37</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Lifestyle</p>
+                  <p>24</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Fashion</p>
+                  <p>59</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Art</p>
+                  <p>29</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Food</p>
+                  <p>15</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Architecture</p>
+                  <p>09</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                  <p>Adventure</p>
+                  <p>44</p>
+                </div>
+              </div>
+              <hr />
+
+              <h1 class="bg-warning text-light p-3 mt-5">Newsletter</h1>
+              <p class="p-4 mt-5">
+                Here, I focus on a range of items and features that we use in
+                life without giving them a second thought.
+              </p>
+              <div class="d-flex mt-5">
+                <input
+                  type="email"
+                  placeholder="Enter mail"
+                  class="border rounded-0"
+                /><button class="bg-warning text-light border-0">
+                  Subcribe
+                </button>
+              </div>
+              <p class="mt-4 fs-5 text-secondary">
+                You can unsubscribe at any time <br /><br />
+              </p>
+              <hr />
+              <h1 class="bg-warning text-light p-3 mt-5">Tag Clouds</h1>
+              <div id="aside-buttons">
+                <button>Technology</button><button>Fashion</button
+                ><button>Architecture</button> <button>Fashion</button
+                ><button>Food</button><button>Lifestyle</button
+                ><button>Art</button><button>Adventure</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark mt-5 text-light">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Newsletter</h3>
+            <p>Stay update with our latest</p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Email"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn bg-warning text-light fs-2"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Instagram Feed</h3>
+            <img src="./assets/img/insta.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h3>Follow Us</h3>
+            <p>Let us be social</p>
+            <div>
+              <i class="bi bi-facebook p-2"></i
+              ><i class="bi bi-twitter-x p-2"></i
+              ><i class="bi bi-dribbble p-2"></i
+              ><i class="bi bi-whatsapp p-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
